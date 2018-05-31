@@ -10,7 +10,11 @@ import cn.sogoucloud.framework.bean.Handler;
 import cn.sogoucloud.framework.bean.Request;
 import cn.sogoucloud.framework.util.ArrayUtil;
 import cn.sogoucloud.framework.util.CollectionUtil;
-
+/**
+ * Controll
+ * @author 朱培
+ *
+ */
 public class ControllerHelper {
 	
 	 private static final Map<Request, Handler> ACTION_MAP = new HashMap<Request, Handler>();
