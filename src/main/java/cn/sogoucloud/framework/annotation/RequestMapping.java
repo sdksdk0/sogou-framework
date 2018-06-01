@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  * @author 朱培
  *
  */
-@Target(ElementType.TYPE)
+@Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface RequestMapping {
 	/**

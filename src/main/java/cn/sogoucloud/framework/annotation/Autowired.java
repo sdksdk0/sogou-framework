@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  * @author 朱培
  *
  */
-@Target(ElementType.TYPE)
+@Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Autowired {
 
