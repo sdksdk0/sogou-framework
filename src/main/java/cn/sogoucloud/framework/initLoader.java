@@ -1,6 +1,7 @@
 package cn.sogoucloud.framework;
 
 
+import cn.sogoucloud.framework.helper.AopHelper;
 import cn.sogoucloud.framework.helper.BeanHelper;
 import cn.sogoucloud.framework.helper.ClassHelper;
 import cn.sogoucloud.framework.helper.ControllerHelper;
@@ -13,7 +14,7 @@ public class initLoader {
         Class<?>[] classList = {
             ClassHelper.class,
             BeanHelper.class,
-            //AopHelper.class,
+            AopHelper.class,
             IOCHelper.class,
             ControllerHelper.class
         };
