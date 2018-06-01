@@ -19,7 +19,7 @@ public interface ConfigConstant {
     String APP_JSP_PATH = "sogou.framework.app.jsp_path";
     String APP_ASSET_PATH = "sogou.framework.app.asset_path";
 
-	String APP_UPLOAD_LIMIT = null;
+	String APP_UPLOAD_LIMIT = "sogou.framework.app.upload_limit";
    
 }
 
